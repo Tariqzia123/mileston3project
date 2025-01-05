@@ -1,18 +1,11 @@
-// Q2 Assignment 1
-// Create a new project of NextJS with the CLI - and code a simple hello world program in it.
+import Carousel from "./components/carousel";
+import Products from "./products/page";
 
-
-
-
-
-import React from "react";
-function home() {
+export default function Home() {
   return (
-    <div>
-            <h1>Hello world</h1>
-    </div>
+<>
+<Carousel/>
+<Products/>
+</>
   );
 }
-export default home;
-
-
